@@ -1,0 +1,90 @@
+section#home{
+	padding-top: 30px;
+	height: 100%;
+	width: 100%;
+	background-image: url('../imagenes/bgapp.jpg');
+	background-repeat: no-repeat;
+	.logo{
+		margin: auto;
+		img{
+			width: 100%;
+			margin-top: -5px;			
+		}
+	}
+	.mercapp{
+		img{
+			width: 68%;
+			margin-left: 15%;
+			margin-top: 24px;
+			margin-bottom: 37px;
+		}
+	}
+	button.busca-home{
+		@include block;
+		background-color: $naranja;
+		border-radius: 18px;
+		height: 40px;
+		width: 190px;
+		border-style: none;
+		margin-bottom: 15px;
+		margin-left: 16%;
+		a{
+			p{
+				font-family: 'Raleway';
+				font-weight: 900;
+				font-size: 18px;
+				text-decoration: none;
+				color: black;
+				margin: 0;
+				margin: auto;
+			}				
+		}	
+
+	}
+	button.inicia-sesion{
+		@include block;
+		background-color: $verde-claro;
+		border-radius: 20px;
+		height: 40px;
+		width: 190px;
+		border-style: none;
+		margin-bottom: 5px;
+		margin-left: 16%;
+		a{
+			p{
+				font-family: 'Raleway';
+				font-weight: 900;
+				font-size: 20px;
+				text-decoration: none;
+				color: black;
+				margin: 0;
+				margin: auto;
+			}				
+		}	
+
+	}
+	p.registrate{
+		font-family: 'Raleway';
+		font-size: 14px;
+		margin: 0;
+		text-align: center;
+		a{
+			text-decoration: none;
+			span{
+				font-weight: bold;
+				color: black;
+			}
+		}
+	}
+	.redes{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 11px;
+		.red-social{
+			@include inline;
+			padding-left: 3px;
+			padding-right: 3px;
+		}
+	}
+}
+

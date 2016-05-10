@@ -1,0 +1,26 @@
+#bienvenido{
+	background: $celeste;
+	text-align: center;
+	padding-bottom: 11px;
+	h5{
+		margin: 0;
+		padding: 25px 0;
+		font-weight: 700;
+	}
+	h6{
+		padding:15px 0;
+		font-weight: 700;
+	}
+
+	.btn{
+		background-color: $naranja;
+		font-family: 'Raleway';
+		font-weight: 900;
+		font-size: 16px;
+		text-decoration: none;
+		color: black;
+		margin: 10px 0;
+		border-radius: 30px;
+		text-transform: none;
+	}
+}
